@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    color: #0072ff;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+#long, #lati {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #555;
+}
+
+.erro {
+    color: red;
+    font-weight: bold;
+}
